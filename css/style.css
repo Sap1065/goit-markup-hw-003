@@ -64,7 +64,7 @@ img{
 }
 
 .header{
-    border: 1px #ECECEC;
+    border: solid 1px #ECECEC;
 }
 
 .header-container {
@@ -362,9 +362,9 @@ margin-top: 30px;
 }
 
 .work-class {
-    border-right: 1px #EEEEEE;
-    border-left: 1px #EEEEEE;
-    border-bottom: 1px #EEEEEE;
+    border-right: solid 1px #EEEEEE;
+    border-left: solid 1px #EEEEEE;
+    border-bottom: solid 1px #EEEEEE;
     padding: 20px 24px;
 }
 
