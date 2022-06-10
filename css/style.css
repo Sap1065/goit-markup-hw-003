@@ -63,6 +63,9 @@ img{
     max-width: 100%;
 }
 
+.header{
+    border: 1px #ECECEC;
+}
 
 .header-container {
     display: flex;
@@ -174,6 +177,7 @@ img{
 .hang-list {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .hang-list>.hang-item {
@@ -202,7 +206,7 @@ img{
     letter-spacing: 0.03em;
 }
 
-.gallery {
+.gallery.section {
     padding-top: 0
 }
 
@@ -218,7 +222,8 @@ img{
 
 .specialists-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .specialists-item {
@@ -305,7 +310,7 @@ margin-top: 30px;
 .works-list-btn {
     display: flex;
     justify-content: center;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
 }
 
 .works-item-btn:not(:last-child){
@@ -350,7 +355,6 @@ margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 34px;
 }
 .work-item{
     border: 1px #EEEEEE;
@@ -358,7 +362,9 @@ margin-top: 30px;
 }
 
 .work-class {
-    border: 1px #EEEEEE;
+    border-right: 1px #EEEEEE;
+    border-left: 1px #EEEEEE;
+    border-bottom: 1px #EEEEEE;
     padding: 20px 24px;
 }
 
