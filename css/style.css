@@ -24,9 +24,6 @@ button {
     color: #2196F3;
 }
 
-section {
-    margin: 94px 0;
-}
 
 .title {
     font-weight: 700;
@@ -35,7 +32,7 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -54,6 +51,16 @@ h6,
 ul {
     margin: 0;
     padding-left: 0;
+}
+
+.section{
+    padding-top: 94px; 
+    padding-bottom: 94px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
 
 
@@ -175,7 +182,7 @@ ul {
 }
 
 .hang-item:last-child {
-    margin-right: 0;
+    padding-right: 0;
 }
 
 
@@ -196,8 +203,7 @@ ul {
 }
 
 .gallery {
-    padding: 0;
-    margin-bottom: 94px;
+    padding-top: 0
 }
 
 .gallery-list {
@@ -217,6 +223,7 @@ ul {
 
 .specialists-item {
     flex-basis: calc((100% - 30px *3) / 4);
+    background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -298,7 +305,11 @@ margin-top: 30px;
 .works-list-btn {
     display: flex;
     justify-content: center;
+    margin-bottom: 16px;
+}
 
+.works-item-btn:not(:last-child){
+    margin-right: 8px ;
 }
 
 .works-btn {
@@ -339,7 +350,7 @@ margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 50px;
+    margin-top: 34px;
 }
 .work-item{
     border: 1px #EEEEEE;
@@ -347,6 +358,7 @@ margin-top: 30px;
 }
 
 .work-class {
+    border: 1px #EEEEEE;
     padding: 20px 24px;
 }
 
